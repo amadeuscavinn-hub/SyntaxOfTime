@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Visual : The Syntax of Time</title>
+  <meta name="description" content="Arsip tangkapan layar yang dapat dijelajahi, empat album yang merangkum dialek visual Windows.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress-bar-container">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="cursor-glow"></div>
+
+  <div class="dot-pattern"></div>
+
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-dot"></span>
+        <span class="nav-logo-text">The Syntax of Time</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="era.html" class="nav-link">Era</a>
+        <a href="galeri.html" class="nav-link active">Galeri</a>
+        <a href="testimoni.html" class="nav-link">Testimoni</a>
+        <a href="indonesia.html" class="nav-link">Dampak</a>
+        <a href="sumber.html" class="nav-link">Sumber</a>
+        <a href="tim.html" class="nav-link">Tim</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <button class="mobile-menu-close" aria-label="Close">&times;</button>
+    <div class="mobile-menu-links">
+      <a href="index.html" class="mobile-menu-link">Home</a>
+      <a href="era.html" class="mobile-menu-link">Era</a>
+      <a href="galeri.html" class="mobile-menu-link active">Galeri</a>
+      <a href="testimoni.html" class="mobile-menu-link">Testimoni</a>
+      <a href="indonesia.html" class="mobile-menu-link">Dampak</a>
+      <a href="sumber.html" class="mobile-menu-link">Sumber</a>
+      <a href="tim.html" class="mobile-menu-link">Tim</a>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-header">
+      <div class="section-eyebrow">
+        <span class="section-eyebrow-line"></span>
+        <span class="section-eyebrow-text">Bab IV · Galeri Visual</span>
+      </div>
+      <h1 class="page-header-title reveal">
+        Arsip <span class="italic">tangkapan layar</span> yang dapat dijelajahi.
+      </h1>
+      <p class="page-header-subtitle reveal">
+        Sebuah ruang interaktif untuk mengumpulkan dan menampilkan visual dari setiap era, empat album yang merangkum dialek visual Windows.
+      </p>
+      <div class="page-header-nav">
+        <a href="era.html" class="page-header-prev">← Empat Era</a>
+        <a href="testimoni.html" class="page-header-next">Testimoni →</a>
+      </div>
+    </header>
+
+    <section class="galeri-section">
+      <div class="galeri-tabs">
+      </div>
+
+      <div class="galeri-header">
+        <span class="galeri-range">1985 — 1994</span>
+        <span class="galeri-line"></span>
+        <span class="galeri-label">Era Perintah</span>
+      </div>
+
+      <div class="galeri-grid">
+        <figure class="image-placeholder reveal">
+          <div style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px;">
+            <img
+              src="assets\MSDOS.png"
+              alt="Windows 1.0 Desktop"
+              style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease; cursor:zoom-in;"
+              onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'"
+            >
+          </div>
+          <figcaption class="image-placeholder-caption">Antarmuka tersusun, MS-DOS Executive di tengah.</figcaption>
+        </figure>
+
+        <figure class="image-placeholder reveal">
+          <div style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px;">
+            <img
+              src="https://picsum.photos/id/20/800/600"
+              alt="Program Manager · Win 3.0"
+              style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease; cursor:zoom-in;"
+              onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'"
+            >
+          </div>
+          <figcaption class="image-placeholder-caption">Ikon program 3D yang melegenda.</figcaption>
+        </figure>
+
+        <figure class="image-placeholder reveal">
+          <div style="aspect-ratio: 4/3; overflow: hidden; border-radius: 8px;">
+            <img
+              src="https://picsum.photos/id/48/800/600"
+              alt="Solitaire Pertama"
+              style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease; cursor:zoom-in;"
+              onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'"
+            >
+          </div>
+          <figcaption class="image-placeholder-caption">Permainan yang mengajarkan jutaan orang menggunakan mouse.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="page-footer-nav">
+      <a href="era.html" class="page-footer-link">
+        <div class="page-footer-link-label">Sebelumnya</div>
+        <div class="page-footer-link-text">← Empat Era</div>
+      </a>
+      <a href="testimoni.html" class="page-footer-link next">
+        <div class="page-footer-link-label">Selanjutnya</div>
+        <div class="page-footer-link-text">Testimoni →</div>
+      </a>
+    </div>
+  </main>
+
+  <div class="lightbox">
+    <button class="lightbox-close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <img src="" alt="Preview">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
