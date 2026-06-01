@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimoni : The Syntax of Time</title>
+  <meta name="description" content="Kesaksian dari mereka yang menyaksikan setiap layar, dosen dan pengguna sehari-hari Windows.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress-bar-container">
+    <div class="progress-bar"></div>
+  </div>
+
+  <div class="cursor-glow"></div>
+
+  <div class="dot-pattern"></div>
+
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-dot"></span>
+        <span class="nav-logo-text">The Syntax of Time</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="era.html" class="nav-link">Era</a>
+        <a href="galeri.html" class="nav-link">Galeri</a>
+        <a href="testimoni.html" class="nav-link active">Testimoni</a>
+        <a href="indonesia.html" class="nav-link">Dampak</a>
+        <a href="sumber.html" class="nav-link">Sumber</a>
+        <a href="tim.html" class="nav-link">Tim</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <button class="mobile-menu-close" aria-label="Close">&times;</button>
+    <div class="mobile-menu-links">
+      <a href="index.html" class="mobile-menu-link">Home</a>
+      <a href="era.html" class="mobile-menu-link">Era</a>
+      <a href="galeri.html" class="mobile-menu-link">Galeri</a>
+      <a href="testimoni.html" class="mobile-menu-link active">Testimoni</a>
+      <a href="indonesia.html" class="mobile-menu-link">Dampak</a>
+      <a href="sumber.html" class="mobile-menu-link">Sumber</a>
+      <a href="tim.html" class="mobile-menu-link">Tim</a>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-header">
+      <div class="section-eyebrow">
+        <span class="section-eyebrow-line"></span>
+        <span class="section-eyebrow-text">Testimoni</span>
+      </div>
+      <h1 class="page-header-title reveal">
+        Suara dari mereka yang <span class="italic">menyaksikan</span> setiap layar.
+      </h1>
+      <p class="page-header-subtitle reveal">
+        Kesaksian langsung dari dosen dengan pengalaman puluhan tahun mengajar dan pengguna sehari-hari yang tumbuh dengan berbagai versi Windows. Setiap kutipan diiringi inti percakapan.
+      </p>
+      <div class="page-header-nav">
+        <a href="galeri.html" class="page-header-prev">← Galeri Visual</a>
+        <a href="indonesia.html" class="page-header-next">Konteks Indonesia →</a>
+      </div>
+    </header>
+
+    <section class="testimonials-section">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">
+          <span class="section-eyebrow-line"></span>
+          <span class="section-eyebrow-text">Testimoni</span>
+        </div>
+        <h2 class="section-title">
+          Kesaksian dari mereka yang <span class="italic">menyaksikan</span> setiap layar.
+        </h2>
+      </div>
+
+      <div class="testimonials-tabs">
+        <span class="testimonials-counter">01 / 02</span>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-main">
+          <span class="testimonial-quote-mark">"</span>
+          <blockquote class="testimonial-content">
+            <p class="testimonial-text">
+              Dulu, Saya harus menunggu semalaman suntuk hanya untuk melihat hasil running program AI. Sekarang, berkat perkembangan OS dan hardware, mahasiswa bisa melakukan training data dengan sangat cepat menggunakan berbagai library siap pakai.
+            </p>
+            <footer class="testimonial-author">
+              <span class="testimonial-author-dash">—</span>
+              <div>
+                <div class="testimonial-author-name">Dr. Andreas, S.Kom., M.Kom.</div>
+                <div class="testimonial-author-role">Kepala Program Studi Informatika, Assistant Professor</div>
+              </div>
+            </footer>
+            <div class="testimonial-takeaway">
+              <div class="testimonial-takeaway-label">Inti percakapan</div>
+              <p class="testimonial-takeaway-text">
+                Akses adalah perubahan terbesar bukan grafis, bukan kecepatan, tapi siapa yang akhirnya bisa duduk di depan layar.
+              </p>
+            </div>
+          </blockquote>
+        </div>
+
+        <aside class="testimonials-sidebar">
+          <div class="testimonials-sidebar-title">Suara dari Dosen</div>
+          <div class="testimonial-list">
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="reflection-section">
+      <div class="reflection-grid reverse">
+        <div class="reveal">
+          <figure class="image-placeholder" id="interview-figure">
+            <div style="aspect-ratio: 3/2; overflow: hidden; border-radius: 8px;">
+              <img
+                id="interview-img"
+                src="assets/testimonial/image-1.png"
+                alt="Dokumentasi Wawancara"
+                style="width:100%; height:100%; object-fit:cover; transition:transform 0.5s ease, opacity 0.6s ease; cursor:zoom-in;"
+                onmouseover="this.style.transform='scale(1.05)'"
+                onmouseout="this.style.transform='scale(1)'"
+              >
+            </div>
+            <figcaption class="image-placeholder-caption">Sesi percakapan bersama dosen dan pengguna sehari-hari.</figcaption>
+          </figure>
+
+
+        </div>
+        <div class="reflection-content reveal">
+          <div class="reflection-eyebrow">
+            <span class="reflection-eyebrow-text">Catatan Lapangan</span>
+            <span class="reflection-eyebrow-line"></span>
+          </div>
+          <p class="reflection-body">
+            Setiap kutipan di halaman ini diambil dari sesi tatap muka dengan dosen maupun pengguna sehari-hari. Kami merekam bukan hanya jawaban, tetapi juga nilai dan makna yang diberikan ketika sebuah versi Windows kembali diingat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-footer-nav">
+      <a href="galeri.html" class="page-footer-link">
+        <div class="page-footer-link-label">Sebelumnya</div>
+        <div class="page-footer-link-text">← Galeri Visual</div>
+      </a>
+      <a href="indonesia.html" class="page-footer-link next">
+        <div class="page-footer-link-label">Selanjutnya</div>
+        <div class="page-footer-link-text">Konteks Indonesia →</div>
+      </a>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
